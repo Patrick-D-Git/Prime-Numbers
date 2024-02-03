@@ -1,7 +1,7 @@
 # Check if it's a Prime number
 
 def prime_checker(number):
-    for i in range(2, number):
+    for i in range(2, number):  # It will not be a Prime number if you can divide it by 1, 2, or 4.
         if number % i == 0:
             print("It's not a prime number.")
             break
